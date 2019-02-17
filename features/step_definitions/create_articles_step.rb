@@ -11,5 +11,5 @@ When("I click {string} button") do |value|
 end
   
 Then("I should be on {string} page") do |string|
-    expect(page).to
+    expect(page).to 
 end
