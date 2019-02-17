@@ -1,7 +1,10 @@
 Feature: List articles on the landing page
   As a visitor,
-  When I visit the landing page of the application
   I would like to see a list of all articles
+
+  Background: 
+    Given I visit the landing page
+
 
 
   Scenario: View list of articles on the landing page

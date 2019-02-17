@@ -1,3 +1,7 @@
+Given("I visit the landing page") do
+    visit root_path
+end
+
 When("I visit the site") do
     visit root_path
 end
