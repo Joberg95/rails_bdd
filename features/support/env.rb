@@ -1,5 +1,3 @@
-
-
 require 'cucumber/rails'
 require 'coveralls'
 Coveralls.wear_merged!('rails')
