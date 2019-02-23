@@ -11,7 +11,7 @@ Feature: User can comment on an article
 
     Scenario: Users comment is visible on articles
         Given I visit the landing page
-        And I click on "Learning Rails 5"
+        And I click on "Learn Rails 5"
         When I fill in "Email" with "test@test.com"
         And I fill in "Comment" with "test!"
         Then show me the page
