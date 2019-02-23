@@ -15,6 +15,6 @@ Feature: User can comment on an article
         When I fill in "Email" with "test@test.com"
         And I fill in "Comment" with "test!"
         Then show me the page
-        And I click on 'Add comment'
-        Then I should be on 'Learning rails 5' page
-        And I should see 'Your comment was successfully added'
+        And I click on "Add comment"
+        Then I should be on "Learning rails 5" page
+        And I should see "Your comment was successfully added"
