@@ -14,8 +14,3 @@ Feature: Create articles
     And I should see "Article was successfully created."
     And I should see "Learn Rails 5"
     Then I should see "Excited about learning a new framework"
-
-  # Scenario: Publisher doesn't enter a title for the article [Sad Path]
-  #   When I fill in "Content" with "Excited about learning a new framework"
-  #   And I click "Create Article" button
-  #   Then I should see "Title can't be blank"
