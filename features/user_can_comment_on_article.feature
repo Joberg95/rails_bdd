@@ -6,7 +6,7 @@ Feature: User can comment on an article
 
     Background:
         Given the following articles exists in the system
-        | title             | content                                |
+        | title                    | content                                                |
         | Learn Rails 5     | Build awesome rails applications       |
 
     Scenario: Users comment is visible on articles
